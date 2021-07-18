@@ -2,7 +2,7 @@
 # Examples:
 # addi x5, x6, -5     #x5 = x6 + (-5)
 # IMM会被符号扩展
-# imm只占用12bit
+# imm只占用12bit，因为立即数嵌入指令中
 # riscv没有设计SUBI
 
 .section .text
