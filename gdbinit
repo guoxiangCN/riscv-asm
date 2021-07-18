@@ -1,6 +1,7 @@
 display/z $x5
 display/z $x6
 display/z $x7
+display/z $pc
 
 set disassemble-next-line on
 b _start
